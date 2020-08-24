@@ -48,4 +48,4 @@ sudo apt install default-jre
 + Вконтакте - https://vk.com/glenndev
 + Email - justneon33@gmail.com
 
-Данное приложение было создан для [моего бота](https://github.com/justneon33/BossLikeBot) и будет дорабатываться по вашему запросу.
+Данное приложение было создан для меня и будет дорабатываться. Планирую добавить ещё как минимум Вк бота.
