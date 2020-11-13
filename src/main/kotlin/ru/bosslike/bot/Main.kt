@@ -10,15 +10,11 @@ suspend fun main() {
     println(startMenuText)
 
     when (scanner.nextLine().toInt()) {
-        botSettingsItemId -> {
-            settings()
-            main()
-        }
+        botSettingsItemId -> settings()
         launchBotItemId -> TODO()
-        else -> {
-            println("Ошибка выберите правильный пункт меню.")
-            main()
-        }
+        else -> println("Ошибка выберите правильный пункт меню.")
     }
     accountStorage.awaitSaving()
+
+    return main()
 }
